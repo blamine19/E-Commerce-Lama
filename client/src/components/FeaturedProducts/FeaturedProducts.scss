@@ -1,0 +1,45 @@
+.feauturedProducts {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    border: solid thin red;
+   
+    .containerFeauturedProducts {
+
+        width: 75%;
+        display: flex;       
+        flex-direction: column;
+
+        .top {
+            display: flex;
+
+            h1 {
+                flex: 2;
+                color: gray;
+                padding: 15px;
+            }
+
+            p {
+                flex: 3;
+                color: gray;
+                text-transform: capitalize;
+                padding-top: 55px;
+            }
+        }
+
+        .bottomfeauturedProducts {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 390px;
+            flex-wrap: wrap;
+
+            .product {
+                width: 21%;
+                height: 90%;
+            }
+        }
+    }
+}
